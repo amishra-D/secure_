@@ -1,0 +1,194 @@
+/* Import Montserrat Bold font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* Apply Montserrat Bold as the font for headings and fallback font for body */
+body {
+    background-color: #8e44ad;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Apply Montserrat Bold to all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* Style for login form */
+#login-form {
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for login status */
+#login-status {
+    color: #666;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Description styling */
+.description {
+    padding: 20px;
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+    line-height: 1.6;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Container for input and call button */
+.call-input-container, .chatbot-container, .contact-list-container {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Responsive layout for input container and contact list container */
+@media (min-width: 768px) {
+   .call-input-container, .contact-list-container {
+        width: 50%;
+    }
+}
+
+/* Style for call input container */
+.call-input-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style for call input */
+.call-input {
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Style for call button */
+.call-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    font-family: "Segoe UI Bold";
+}
+
+/* Hover effect for call button */
+.call-button:hover {
+    background-color: #3e8e41;
+}
+
+/* Style for chatbot header and contact list header */
+.chatbot-header, .contact-list-header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Style for chatbot messages and contact list */
+.chatbot-messages, .contact-list {
+    padding: 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Style for contact list items */
+.contact-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.contact-list li:last-child {
+    border-bottom: none;
+}
+
+/* Style for contact list item images */
+.contact-list img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Style for chatbot container */
+.chatbot-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Style for chatbot message images */
+.chatbot-messages img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 50px;
+    height: 50px;
+}
+
+/* Style for navigation */
+.nav {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for navigation links */
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hover effect for navigation links */
+.nav a:hover {
+    color: #23527c;
+}
